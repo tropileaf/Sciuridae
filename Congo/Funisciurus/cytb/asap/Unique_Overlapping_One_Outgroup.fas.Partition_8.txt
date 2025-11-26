@@ -1,0 +1,21 @@
+Partition 8 
+Asap-Score: 10.500000
+Proba: 7.824351e-01
+Nb subsets with recursion:15 (without recursion: 14)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 28 ;id: BY6_Funisciurus____(74) BY1_Funisciurus____(5) YK37_Funisciurus____(2) YK129_Funisciurus___ Y114__ YK234__ Y119_Funisciurus___ YK50__ Y50_Funisciurus___ CRT644___(11) BY3_Funisciurus___ YK111__ Y122__ YK101_Funisciurus___ YK23___(2) BY4_Funisciurus___ YK33_Funisciurus___ EBO314_(2) YKX40__ TLL58_Funisciurus_ TLL59_Funisciurus_ YK100_Funisciurus____(2) EBO245_(2) EBO472 EBO50 TLL154_Funisciurus_ EBO287 YK65___(2) 
+Subset[ 2 ] n: 18 ;id: EPL29_Funisciurus____(26) UAC933_Funisciurus____(2) UAC928_Funisciurus____(2) UAC922__ CRT282__ BDA313___(4) EPL18_Funisciurus___ UAC5122_Funisciurus___ EPL14_Funisciurus___ CRT57 UMA25___Funisciurus_(3) AKT106___(10) UMA385_Funisciurus__ BDA112___(4) AKT236_Funisciurus___ BDA152__ UAC930__ AKT107_Funisciurus___ 
+Subset[ 3 ] n: 1 ;id: BDA80__ 
+Subset[ 4 ] n: 3 ;id: Kik675_Funisciurus____(7) Kik1454_Funisciurus____(2) Kik1199_Funisciurus___ 
+Subset[ 5 ] n: 4 ;id: UMA440 UMA40_Funisciurus__ UMA439 UMA511 
+Subset[ 6 ] n: 1 ;id: EPL20_Funisciurus___ 
+Subset[ 7 ] n: 11 ;id: Y21___(2) YK215__ YK213___(2) YK228___(2) YK229__ YK247__ YK195_Funisciurus____ YK148_Funisciurus____ YK208__ YK196__ YK152_Funisciurus____ 
+Subset[ 8 ] n: 1 ;id: BY5_Funisciurus____ 
+Subset[ 9 ] n: 1 ;id: YK192_Funisciurus____ 
+Subset[ 10 ] n: 1 ;id: YK109_Funisciurus____ 
+Subset[ 11 ] n: 1 ;id: MF577066 
+Subset[ 12 ] n: 6 ;id: YK127__ YK120__ YK225__ Y9__ YK110_Funisciurus____ YK231__ 
+Subset[ 13 ] n: 1 ;id: YK125 
+Subset[ 14 ] n: 1 ;id: EBO87 
+Subset[ 15 ] n: 1 ;id: YK171_Paraxerus 

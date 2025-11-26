@@ -1,0 +1,129 @@
+WARNING: delimit was not compiled with libgsl. Likelihood ratio test disabled.
+mptp 0.2.4_linux_x86_64, 4GB RAM, 2 cores
+https://github.com/Pas-Kapli/mptp
+
+Parsing tree file...
+Loaded unrooted tree...
+Converting to rooted tree...
+Selected YK171_Paraxerus as outgroup based on longest tip-branch criterion
+
+MCMC run 0...
+Computing initial delimitation...
+Null model log-likelihood: 178.274151
+1000 Log-L: 242.035459
+2000 Log-L: 247.093717
+3000 Log-L: 240.350884
+4000 Log-L: 248.134391
+5000 Log-L: 240.350884
+6000 Log-L: 247.156341
+7000 Log-L: 248.134391
+8000 Log-L: 242.035459
+9000 Log-L: 240.350884
+10000 Log-L: 247.095609
+11000 Log-L: 242.035459
+12000 Log-L: 242.035459
+13000 Log-L: 240.350884
+14000 Log-L: 248.134391
+15000 Log-L: 248.134391
+16000 Log-L: 247.093717
+17000 Log-L: 247.122934
+18000 Log-L: 240.350884
+19000 Log-L: 247.156341
+20000 Log-L: 240.350884
+21000 Log-L: 240.350884
+22000 Log-L: 242.035459
+23000 Log-L: 242.035459
+24000 Log-L: 240.350884
+25000 Log-L: 240.350884
+26000 Log-L: 242.035459
+27000 Log-L: 240.350884
+28000 Log-L: 242.035459
+29000 Log-L: 247.156341
+30000 Log-L: 247.156341
+31000 Log-L: 247.228362
+32000 Log-L: 242.035459
+33000 Log-L: 242.035459
+34000 Log-L: 240.350884
+35000 Log-L: 242.035459
+36000 Log-L: 244.756298
+37000 Log-L: 240.350884
+38000 Log-L: 242.035459
+39000 Log-L: 242.035459
+40000 Log-L: 242.035459
+41000 Log-L: 247.093717
+42000 Log-L: 247.122934
+43000 Log-L: 240.350884
+44000 Log-L: 247.130845
+45000 Log-L: 240.350884
+46000 Log-L: 240.350884
+47000 Log-L: 247.156341
+48000 Log-L: 248.134391
+49000 Log-L: 242.035459
+50000 Log-L: 240.350884
+51000 Log-L: 247.228362
+52000 Log-L: 248.134391
+53000 Log-L: 242.035459
+54000 Log-L: 247.095609
+55000 Log-L: 247.156341
+56000 Log-L: 242.035459
+57000 Log-L: 240.350884
+58000 Log-L: 240.350884
+59000 Log-L: 242.035459
+60000 Log-L: 247.156341
+61000 Log-L: 242.035459
+62000 Log-L: 247.130845
+63000 Log-L: 240.350884
+64000 Log-L: 248.134391
+65000 Log-L: 247.122934
+66000 Log-L: 247.130845
+67000 Log-L: 240.350884
+68000 Log-L: 242.035459
+69000 Log-L: 247.156341
+70000 Log-L: 247.130845
+71000 Log-L: 247.228362
+72000 Log-L: 240.350884
+73000 Log-L: 247.122934
+74000 Log-L: 247.156341
+75000 Log-L: 242.035459
+76000 Log-L: 247.156341
+77000 Log-L: 247.228362
+78000 Log-L: 247.228362
+79000 Log-L: 240.350884
+80000 Log-L: 240.350884
+81000 Log-L: 242.035459
+82000 Log-L: 247.130845
+83000 Log-L: 242.035459
+84000 Log-L: 242.035459
+85000 Log-L: 240.350884
+86000 Log-L: 247.156341
+87000 Log-L: 247.122934
+88000 Log-L: 242.035459
+89000 Log-L: 247.095609
+90000 Log-L: 240.350884
+91000 Log-L: 247.122934
+92000 Log-L: 240.350884
+93000 Log-L: 240.350884
+94000 Log-L: 242.035459
+95000 Log-L: 240.350884
+96000 Log-L: 247.130845
+97000 Log-L: 240.350884
+98000 Log-L: 247.093717
+99000 Log-L: 242.035459
+100000 Log-L: 247.156341
+Minimum log-likelihood observed in mcmc run: 237.884548
+Maximum log-likelihood observed in mcmc run: 249.517064
+CCI (8,10)
+HPD (8,8) (10,10) 
+Statistics written in output.txt.11111.stats ...
+Creating tree with support values in output.txt.11111.tree ...
+Creating SVG delimitation file output.txt.11111.svg ...
+Number of edges greater than minimum branch length: 65 / 156
+Score Null Model: 178.274151
+Best score for multi coalescent rate: 249.517064
+Writing delimitation file output.txt.txt ...
+Number of delimited species: 9
+ML average support based on run with seed 11111 : 0.93443939066298820
+Average standard deviation of support values among runs: 0.000000
+Creating tree with combined support values in output.txt.11111.combined.tree ...
+Creating SVG delimitation file output.txt.11111.svg ...
+Done...

@@ -1,0 +1,102 @@
+Command: /var/www/mptp/bin/mptp --tree_file tree.newick --mcmc_startnull --mcmc 100000 --mcmc_sample 1000 --mcmc_burnin 1000 --seed 11111 --minbr 0.0001 --output_file output.txt 
+Number of edges greater than minimum branch length 0.000100: 65 / 156
+Null-model score: 178.274151
+Best score for multi coalescent rate: 249.517064
+Number of delimited species: 9
+
+Species 1:
+YK171_Paraxerus
+
+Species 2:
+YK125
+EBO87
+
+Species 3:
+BY6_Funisciurus_____74_
+BY1_Funisciurus_____5_
+YK37_Funisciurus_____2_
+EBO245__2_
+EBO472
+EBO50
+EBO314__2_
+EBO287
+YKX40__
+Y114__
+CRT644____11_
+YK111__
+BY3_Funisciurus___
+YK100_Funisciurus_____2_
+YK50__
+TLL154_Funisciurus_
+YK101_Funisciurus___
+YK65____2_
+TLL58_Funisciurus_
+TLL59_Funisciurus_
+YK234__
+Y119_Funisciurus___
+Y50_Funisciurus___
+YK23____2_
+BY4_Funisciurus___
+YK33_Funisciurus___
+YK129_Funisciurus___
+Y122__
+
+Species 4:
+EPL29_Funisciurus_____26_
+CRT282__
+UAC930__
+UAC5122_Funisciurus___
+AKT106____10_
+AKT236_Funisciurus___
+BDA112____4_
+BDA152__
+UAC933_Funisciurus_____2_
+AKT107_Funisciurus___
+UAC928_Funisciurus_____2_
+EPL18_Funisciurus___
+EPL14_Funisciurus___
+UAC922__
+BDA313____4_
+BDA80__
+CRT57
+UMA25___Funisciurus__3_
+UMA385_Funisciurus__
+
+Species 5:
+Kik675_Funisciurus_____7_
+Kik1199_Funisciurus___
+Kik1454_Funisciurus_____2_
+
+Species 6:
+UMA440
+UMA40_Funisciurus__
+UMA511
+UMA439
+EPL20_Funisciurus___
+
+Species 7:
+Y21____2_
+YK215__
+YK195_Funisciurus____
+BY5_Funisciurus____
+YK213____2_
+YK247__
+YK192_Funisciurus____
+YK109_Funisciurus____
+YK208__
+YK196__
+YK152_Funisciurus____
+YK228____2_
+YK229__
+YK148_Funisciurus____
+
+Species 8:
+MF577066
+
+Species 9:
+YK127__
+YK120__
+YK225__
+Y9__
+YK110_Funisciurus____
+YK231__
