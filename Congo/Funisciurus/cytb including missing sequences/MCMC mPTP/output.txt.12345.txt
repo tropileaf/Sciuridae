@@ -1,0 +1,108 @@
+Command: /var/www/mptp/bin/mptp --tree_file tree.newick --mcmc_startnull --mcmc 500000 --mcmc_sample 1000 --mcmc_burnin 5000 --seed 12345 --minbr 0.0001 --output_file output.txt 
+Number of edges greater than minimum branch length 0.000100: 68 / 168
+Null-model score: 186.983247
+Best score for multi coalescent rate: 260.691570
+Number of delimited species: 9
+
+Species 1:
+YK171
+
+Species 2:
+EBO87
+YK125
+
+Species 3:
+YKX41
+YKX40__
+YSK27
+Y54
+BY6
+YK37
+Y114__
+YK129____
+YK23
+YK33____
+EBO50
+EBO314
+EBO245
+EBO472
+EBO287
+YK65
+TLL59__
+TLL58
+Y119____
+YK234__
+Y50____
+CRT644
+YK111__
+YSK37
+YK100
+TLL154__
+YK50__
+YK101
+Y122__
+
+Species 4:
+LIK926
+EPL29
+UAC922__
+UAC933
+AKT107____
+CRT282__
+UAC930__
+BDA313
+BDA80__
+EPL18____
+BDA112
+BDA152__
+AKT106
+AKT236____
+CRT57
+EPL14____
+UAC5122____
+UMA387
+UMA385___
+UMA25
+UMA18
+
+Species 5:
+Kik1454
+Kik675
+Kik1199____
+
+Species 6:
+UMA440
+UMA40
+UMA30
+UMA511
+NDU803
+UMA439
+EPL20
+
+Species 7:
+YK109_____
+YK192_____
+YK196__
+YK208__
+YK152
+YK213
+Y21
+YK215__
+YK195
+BY5_____
+YK247__
+Y74
+YK228
+YK229__
+YK148
+
+Species 8:
+MF577066
+
+Species 9:
+YK120__
+YK127__
+YK225__
+YK110_____
+YK231__
+Y9__
