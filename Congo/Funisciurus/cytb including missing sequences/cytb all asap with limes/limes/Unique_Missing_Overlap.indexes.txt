@@ -1,0 +1,38 @@
+
+  A = Unique_Missing_Overlap.fas_asap_1
+  B = Unique_Missing_Overlap.fas_asap_2
+  C = Unique_Missing_Overlap.fas_asap_3
+  D = Unique_Missing_Overlap.fas_asap_4
+  E = Unique_Missing_Overlap.fas_asap_5
+  F = Unique_Missing_Overlap.fas_asap_6
+  G = Unique_Missing_Overlap.fas_asap_7
+  H = Unique_Missing_Overlap.fas_asap_8
+  I = Unique_Missing_Overlap.fas_asap_9
+  J = Unique_Missing_Overlap.fas_asap_10
+
+         Esp     Rtax      Ctax -->                                                                              
+                             A        B        C        D        E        F        G        H        I        J  
+  A       21    20/20             11/20    10/20     9/20     8/20     7/20     6/20     5/20     4/20     3/20  
+  B       12    11/20                      10/11     9/11     8/11     7/11     6/11     5/11     4/11     3/11  
+  C       11    10/20                                9/10     8/10     7/10     6/10     5/10     4/10     3/10  
+  D       10     9/20                                          8/9      7/9      6/9      5/9      4/9      3/9  
+  E        9     8/20                                                   7/8      6/8      5/8      4/8      3/8  
+  F        8     7/20                                                            6/7      5/7      4/7      3/7  
+  G        7     6/20                                                                     5/6      4/6      3/6  
+  H        6     5/20                                                                              4/5      3/5  
+  I        5     4/20                                                                                       3/4  
+  J        4     3/20                                                                                            
+
+       mCtax     Rtax      Ctax -->                                                                              
+                             A        B        C        D        E        F        G        H        I        J  
+  A     0.35     1.00              0.55     0.50     0.45     0.40     0.35     0.30     0.25     0.20     0.15  
+  B     0.59     0.55                       0.91     0.82     0.73     0.64     0.55     0.45     0.36     0.27  
+  C     0.62     0.50                                0.90     0.80     0.70     0.60     0.50     0.40     0.30  
+  D     0.65     0.45                                         0.89     0.78     0.67     0.56     0.44     0.33  
+  E     0.66     0.40                                                  0.88     0.75     0.62     0.50     0.38  
+  F     0.66     0.35                                                           0.86     0.71     0.57     0.43  
+  G     0.64     0.30                                                                    0.83     0.67     0.50  
+  H     0.59     0.25                                                                             0.80     0.60  
+  I     0.52     0.20                                                                                      0.75  
+  J     0.41     0.15                                                                                            
+
