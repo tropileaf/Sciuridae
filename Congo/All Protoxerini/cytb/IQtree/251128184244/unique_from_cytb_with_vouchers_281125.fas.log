@@ -1,0 +1,695 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    bell.cibiv.univie.ac.at (AVX2, FMA3, 62 GB RAM)
+Command: ../../iqtree -s unique_from_cytb_with_vouchers_281125.fas -st DNA -m TEST -bb 2000 -nm 2000 -bcor 0.98 -alrt 1000
+Seed:    98550 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 28 18:42:48 2025
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file unique_from_cytb_with_vouchers_281125.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 231 sequences with 383 columns, 216 distinct patterns
+180 parsimony-informative, 9 singleton sites, 194 constant sites
+WARNING: Some sequence names are changed as follows:
+Y16_FA_(7) -> Y16_FA__7_
+Y20_FA_(2) -> Y20_FA__2_
+YK53_FA_(5) -> YK53_FA__5_
+YK181_FA_(2) -> YK181_FA__2_
+YK93_FA_(2) -> YK93_FA__2_
+Y23_FA_(3) -> Y23_FA__3_
+YK112 _FA -> YK112___FA
+YK129 _FA -> YK129___FA
+YK108 _FA -> YK108___FA
+Y84 _FA -> Y84___FA
+YK102 _FA -> YK102___FA
+Y12 _FA -> Y12___FA
+YK101 _FA -> YK101___FA
+Y71 _FA -> Y71___FA
+YK100 _FA -> YK100___FA
+YK113 _FA -> YK113___FA
+YK105 _FA -> YK105___FA
+YK114 _FA -> YK114___FA
+BY6 _FA -> BY6___FA
+YK236 _FA -> YK236___FA
+YK107 _FA -> YK107___FA
+YK106 _FA -> YK106___FA
+Y64 _FA -> Y64___FA
+YK115 _FA -> YK115___FA
+Y15 _FA -> Y15___FA
+YK200 _FA -> YK200___FA
+YK33 _FA -> YK33___FA
+Y83 _FA -> Y83___FA
+Y65 _FA -> Y65___FA
+YK39 _FA -> YK39___FA
+YK64 _FA -> YK64___FA
+TLL59 _FA -> TLL59___FA
+Y63 _FA -> Y63___FA
+YK38 _FA -> YK38___FA
+YK59 _FA -> YK59___FA
+TLL154 _FA -> TLL154___FA
+YK35 _FA -> YK35___FA
+TLL58 _FA -> TLL58___FA
+BY2 _FA_(3) -> BY2___FA__3_
+BY1 _FA_(2) -> BY1___FA__2_
+BY4 _FA -> BY4___FA
+BY3 _FA -> BY3___FA
+YK37 _FA_(2) -> YK37___FA__2_
+Y119 _FA -> Y119___FA
+UMA387_FA_(2) -> UMA387_FA__2_
+EPL14 _FA -> EPL14___FA
+EPL12 _FA -> EPL12___FA
+EPL29 _FA -> EPL29___FA
+BDA63_FA_(2) -> BDA63_FA__2_
+EPL18 _FA -> EPL18___FA
+EPL2 _FA -> EPL2___FA
+UAC902 _FA -> UAC902___FA
+UAC5122 _FA -> UAC5122___FA
+UAC5110 _FA -> UAC5110___FA
+UAC938 _FA -> UAC938___FA
+UAC937 _FA -> UAC937___FA
+EPL17 _FA -> EPL17___FA
+UAC928 _FA_(2) -> UAC928___FA__2_
+EPL11 _FA_(2) -> EPL11___FA__2_
+EPL13 _FA -> EPL13___FA
+UMA25 _FA -> UMA25___FA
+UMA388 _FA -> UMA388___FA
+UMA389 _FA -> UMA389___FA
+UMA385 _FA -> UMA385___FA
+CRT57 _FA -> CRT57___FA
+AKT236 _FA -> AKT236___FA
+UAC933 _FA_(2) -> UAC933___FA__2_
+AKT107 _FA -> AKT107___FA
+Kik675 _FA_(6) -> Kik675___FA__6_
+Kik1454 _FC_(2) -> Kik1454___FC__2_
+Kik1199 _FC -> Kik1199___FC
+Kik1665 _FC -> Kik1665___FC
+YK192 _FB -> YK192___FB
+YK148 _FB -> YK148___FB
+YK195 _FB -> YK195___FB
+YK190 _FB -> YK190___FB
+Y101 _FB -> Y101___FB
+YK223 _FB -> YK223___FB
+BY5 _FB -> BY5___FB
+YK152 _FB -> YK152___FB
+YK110 _FB -> YK110___FB
+EPL20 _FP -> EPL20___FP
+EPL8 _FP -> EPL8___FP
+UMA40 _FP -> UMA40___FP
+
+                                                             Gap/Ambiguity  Composition  p-value
+   1  Y16_FA__7_                                                     0.78%    passed     99.43%
+   2  Y20_FA__2_                                                     0.78%    passed     99.43%
+   3  YK147_FA                                                       0.78%    passed     99.43%
+   4  YK122_FA                                                       0.78%    passed     99.43%
+   5  YK14_FA                                                        0.78%    passed     99.43%
+   6  YK154_FA                                                       0.78%    passed     99.43%
+   7  YK202_FA                                                       0.78%    passed     99.43%
+   8  YK187_FA                                                       0.78%    passed     99.43%
+   9  YK251_FA                                                       0.78%    passed     99.43%
+  10  YK242_FA                                                       0.78%    passed     99.43%
+  11  YK50_FA                                                        1.31%    passed     99.56%
+  12  YK130_FA                                                       0.78%    passed     99.43%
+  13  YK199_FA                                                       0.78%    passed     99.43%
+  14  YK53_FA__5_                                                    0.78%    passed     99.43%
+  15  YK181_FA__2_                                                   0.78%    passed     99.43%
+  16  Y7_FA                                                          0.78%    passed     99.43%
+  17  YK219_FA                                                       0.78%    passed     99.43%
+  18  YK160_FA                                                       0.78%    passed     99.43%
+  19  YK93_FA__2_                                                    0.78%    passed     99.02%
+  20  CRT644_FA                                                      0.78%    passed     99.02%
+  21  Y23_FA__3_                                                     0.78%    passed     99.43%
+  22  Y54_FA                                                         0.78%    passed     99.43%
+  23  Y44_FA                                                         0.78%    passed     99.43%
+  24  YK165_FA                                                       0.78%    passed     99.43%
+  25  YK214_FA                                                       0.78%    passed     99.43%
+  26  BY9_FA                                                         0.78%    passed     99.43%
+  27  YK201_FA                                                       0.78%    passed     99.43%
+  28  Y85_FA                                                         0.78%    passed     99.43%
+  29  YK123_FA                                                       0.78%    passed     99.43%
+  30  YK95_FA                                                        0.78%    passed     99.43%
+  31  Y122_FA                                                        0.78%    passed     97.91%
+  32  YK112___FA                                                     0.78%    passed     99.43%
+  33  YK180_FA                                                       0.78%    passed     99.43%
+  34  YK117_FA                                                       0.78%    passed     97.91%
+  35  YK104_FA                                                       0.78%    passed     99.43%
+  36  Y48_FA                                                         0.78%    passed     99.43%
+  37  Y43_FA                                                         0.78%    passed     99.43%
+  38  YK245_FA                                                       0.78%    passed     99.43%
+  39  YK23_FA                                                        0.78%    passed     97.91%
+  40  YSK11_FA                                                       0.78%    passed     99.43%
+  41  YK129___FA                                                     1.31%    passed     99.56%
+  42  YK12_FA                                                        0.78%    passed     99.43%
+  43  YK155_FA                                                       0.78%    passed     99.43%
+  44  YK54_FA                                                        0.78%    passed     99.43%
+  45  YK108___FA                                                     0.78%    passed     99.43%
+  46  Y84___FA                                                       0.78%    passed     99.43%
+  47  YK102___FA                                                     0.78%    passed     99.43%
+  48  Y12___FA                                                       0.78%    passed     99.43%
+  49  YK101___FA                                                     0.78%    passed     98.94%
+  50  Y71___FA                                                       0.78%    passed     99.43%
+  51  YK100___FA                                                     0.78%    passed     99.68%
+  52  YK113___FA                                                     0.78%    passed     99.02%
+  53  YK105___FA                                                     0.78%    passed     99.02%
+  54  YK114___FA                                                     0.78%    passed     99.43%
+  55  YK97_FA                                                        0.78%    passed     99.02%
+  56  BY6___FA                                                       0.78%    passed     99.43%
+  57  YK236___FA                                                     0.78%    passed     99.43%
+  58  YK107___FA                                                     0.78%    passed     99.43%
+  59  YK106___FA                                                     0.78%    passed     99.02%
+  60  Y64___FA                                                       0.78%    passed     99.02%
+  61  YK115___FA                                                     0.78%    passed     99.43%
+  62  EBO315_FA                                                      0.78%    passed     99.52%
+  63  BY11_FA                                                        0.78%    passed     99.43%
+  64  yk45_FA                                                        0.78%    passed     99.02%
+  65  Y31_FA                                                         0.78%    passed     99.43%
+  66  EBO287_FA                                                      0.78%    passed     99.65%
+  67  Y15___FA                                                       0.78%    passed     99.43%
+  68  Y46_FA                                                         0.78%    passed     99.43%
+  69  YK200___FA                                                     0.78%    passed     99.68%
+  70  YKX40_FA                                                       0.78%    passed     98.31%
+  71  Y30_FA                                                         0.78%    passed     99.43%
+  72  EBO314_FA                                                      0.78%    passed     99.52%
+  73  EBO50_FA                                                       0.78%    passed     99.43%
+  74  EBO382_FA                                                      0.78%    passed     99.24%
+  75  EBO245_FA                                                      0.78%    passed     99.24%
+  76  EBO472_FA                                                      0.78%    passed     98.49%
+  77  YK111_FA                                                       1.04%    passed     98.41%
+  78  YK230_FA                                                       0.78%    passed     99.02%
+  79  Y18_FA                                                         1.04%    passed     99.36%
+  80  YK20_FA                                                        1.57%    passed     98.62%
+  81  YK96_FA                                                        0.78%    passed     99.43%
+  82  YK65_FA                                                        0.78%    passed     98.95%
+  83  Y114_FA                                                        1.31%    passed     98.57%
+  84  YK234_FA                                                       1.31%    passed     98.57%
+  85  YKX41_FA                                                       0.78%    passed     98.31%
+  86  YK33___FA                                                      1.04%    passed     98.75%
+  87  Y83___FA                                                       0.78%    passed     99.02%
+  88  YSK37_FA                                                       0.78%    passed     99.68%
+  89  Y65___FA                                                       0.78%    passed     99.43%
+  90  YK39___FA                                                      0.78%    passed     99.43%
+  91  YK64___FA                                                      0.78%    passed     98.95%
+  92  TLL59___FA                                                     0.78%    passed     99.68%
+  93  Y63___FA                                                       0.78%    passed     99.43%
+  94  YK38___FA                                                      0.78%    passed     99.43%
+  95  YK59___FA                                                      0.78%    passed     99.43%
+  96  TLL154___FA                                                    0.78%    passed     97.85%
+  97  YK35___FA                                                      0.78%    passed     99.43%
+  98  TLL58___FA                                                     1.04%    passed     99.78%
+  99  YSK27_FA                                                       1.31%    passed     99.93%
+ 100  BY2___FA__3_                                                   2.61%    passed     98.67%
+ 101  BY1___FA__2_                                                   2.61%    passed     98.67%
+ 102  BY4___FA                                                       2.61%    passed     97.20%
+ 103  BY3___FA                                                       2.61%    passed     98.82%
+ 104  YK220_FA                                                       0.78%    passed     99.43%
+ 105  Y34_FA                                                         0.78%    passed     99.43%
+ 106  YK94_FA                                                        0.78%    passed     99.02%
+ 107  YK37___FA__2_                                                  2.35%    passed     99.04%
+ 108  Y119___FA                                                      2.61%    passed     99.43%
+ 109  Y50_FA                                                         2.61%    passed     95.89%
+ 110  UMA387_FA__2_                                                  0.78%    passed     98.58%
+ 111  RBTL444_FA                                                     0.78%    passed     93.97%
+ 112  EPL14___FA                                                     0.78%    passed     90.07%
+ 113  EPL12___FA                                                     0.78%    passed     93.97%
+ 114  EPL29___FA                                                     0.78%    passed     93.97%
+ 115  EPL28_FA                                                       0.78%    passed     93.97%
+ 116  BDA63_FA__2_                                                   0.78%    passed     92.44%
+ 117  BDA338_FA                                                      0.78%    passed     93.94%
+ 118  BDA12_FA                                                       0.78%    passed     92.44%
+ 119  BDA238_FA                                                      0.78%    passed     92.44%
+ 120  BDA341_FA                                                      0.78%    passed     92.44%
+ 121  BDA300_FA                                                      0.78%    passed     92.44%
+ 122  BDA337_FA                                                      0.78%    passed     93.97%
+ 123  BDA112_FA                                                      0.78%    passed     93.97%
+ 124  BDA257_FA                                                      0.78%    passed     93.97%
+ 125  BDA313_FA                                                      0.78%    passed     93.94%
+ 126  BDA77_FA                                                       0.78%    passed     93.94%
+ 127  EPL18___FA                                                     0.78%    passed     96.78%
+ 128  EPL2___FA                                                      0.78%    passed     93.97%
+ 129  BDA223_FA                                                      0.78%    passed     93.94%
+ 130  Funisciurus_anerythrus_voucher_FMNH_149422__Epulu_DRC          0.78%    passed     93.97%
+ 131  CRT283_FA                                                      0.78%    passed     93.97%
+ 132  UAC913_FA                                                      0.78%    passed     93.97%
+ 133  UAC901_FA                                                      0.78%    passed     93.97%
+ 134  BDA190_FA                                                      0.78%    passed     92.44%
+ 135  BDA222_FA                                                      0.78%    passed     92.44%
+ 136  EPL25_FA                                                       0.78%    passed     93.97%
+ 137  UAC915_FA                                                      0.78%    passed     93.97%
+ 138  CRT282_FA                                                      1.31%    passed     90.46%
+ 139  UAC925_FA                                                      0.78%    passed     93.97%
+ 140  EPL23_FA                                                       0.78%    passed     93.97%
+ 141  UAC926_FA                                                      0.78%    passed     93.97%
+ 142  CRT464_FA                                                      0.78%    passed     93.97%
+ 143  UAC902___FA                                                    0.78%    passed     93.97%
+ 144  UAC5122___FA                                                   0.78%    passed     93.94%
+ 145  UAC930_FA                                                      0.78%    passed     95.44%
+ 146  UAC919_FA                                                      0.78%    passed     93.97%
+ 147  CRT468_FA                                                      0.78%    passed     93.97%
+ 148  BDA81_FA                                                       0.78%    passed     93.97%
+ 149  UAC5110___FA                                                   0.78%    passed     93.97%
+ 150  UAC938___FA                                                    0.78%    passed     93.97%
+ 151  UAC937___FA                                                    0.78%    passed     93.97%
+ 152  BDA243_FA                                                      0.78%    passed     92.44%
+ 153  BDA196_FA                                                      0.78%    passed     93.97%
+ 154  UAC917_FA                                                      0.78%    passed     93.97%
+ 155  AKT106_FA                                                      0.00%    passed     91.40%
+ 156  UAC922_FA                                                      0.26%    passed     93.39%
+ 157  EPL17___FA                                                     0.00%    passed     93.39%
+ 158  BDA80_FA                                                       0.26%    passed     83.40%
+ 159  BDA152_FA                                                      0.00%    passed     91.40%
+ 160  UMA18_FA                                                       0.00%    passed     96.66%
+ 161  UAC928___FA__2_                                                1.83%    passed     97.02%
+ 162  EPL11___FA__2_                                                 0.00%    passed     93.39%
+ 163  EPL13___FA                                                     0.00%    passed     93.39%
+ 164  UMA25___FA                                                     0.00%    passed     96.32%
+ 165  UMA388___FA                                                    0.00%    passed     96.32%
+ 166  UMA389___FA                                                    0.00%    passed     96.32%
+ 167  UMA385___FA                                                    0.00%    passed     98.25%
+ 168  CRT57___FA                                                     0.00%    passed     93.78%
+ 169  AKT236___FA                                                    2.87%    passed     81.12%
+ 170  UAC933___FA__2_                                                2.35%    passed     96.18%
+ 171  AKT107___FA                                                    2.61%    passed     93.66%
+ 172  Kik675___FA__6_                                                2.35%    passed     79.23%
+ 173  Kik1454___FC__2_                                               2.35%    passed     87.63%
+ 174  Kik1199___FC                                                   2.35%    passed     69.10%
+ 175  Kik1665___FC                                                   2.35%    passed     79.23%
+ 176  Funisciurus_anerythrus_Cameroon_PV606394.1                     0.00%    passed     85.92%
+ 177  YK196_FB                                                       1.04%    passed     30.29%
+ 178  YK208_FB                                                       0.26%    passed     28.92%
+ 179  YK192___FB                                                     2.35%    passed     57.15%
+ 180  YK148___FB                                                     2.35%    passed     44.15%
+ 181  YK195___FB                                                     2.35%    passed     49.10%
+ 182  YK109_FB                                                       2.35%    passed     32.88%
+ 183  YK190___FB                                                     0.00%    passed     54.30%
+ 184  Y74_FB                                                         0.00%    passed     54.30%
+ 185  YK247_FB                                                       0.00%    passed     46.83%
+ 186  YK213_FB                                                       0.00%    passed     45.38%
+ 187  Y101___FB                                                      0.00%    passed     54.30%
+ 188  YK228_FB                                                       0.00%    passed     54.30%
+ 189  Y21_FB                                                         0.00%    passed     54.30%
+ 190  YK223___FB                                                     0.00%    passed     45.38%
+ 191  YK229_FB                                                       0.26%    passed     47.67%
+ 192  YK215_FB                                                       0.52%    passed     48.90%
+ 193  BY5___FB                                                       2.09%    passed     44.21%
+ 194  YK152___FB                                                     0.00%    passed     33.71%
+ 195  MF577066_FB                                                    0.00%    passed     29.31%
+ 196  YK110___FB                                                     0.26%    passed     64.72%
+ 197  YK120_FB                                                       2.09%    passed     52.22%
+ 198  YK121_FB                                                       0.26%    passed     55.34%
+ 199  YK225_FB                                                       2.35%    passed     52.80%
+ 200  YK127_FB                                                       1.83%    passed     60.58%
+ 201  YK231_FB                                                       1.31%    passed     72.34%
+ 202  Y9_FB                                                          0.78%    passed     65.14%
+ 203  YK226_FB                                                       8.88%    passed     51.09%
+ 204  Funisciurus_lemniscatus_voucher_FMNH_222638_DRC_Bas_congo__    0.00%    passed     91.83%
+ 205  NDU803_Fp                                                      0.26%    passed     38.56%
+ 206  Funisciurus_pyrropus___PV606400.1_FMNH_148995_Burundi          0.00%    passed     50.89%
+ 207  EPL20___FP                                                     0.00%    passed     32.70%
+ 208  EPL8___FP                                                      2.35%    passed     40.97%
+ 209  UMA30_FP                                                       2.35%    passed     39.34%
+ 210  UMA40___FP                                                     0.00%    passed     43.81%
+ 211  UMA29_FP                                                       0.00%    passed     43.81%
+ 212  UMA511_FP                                                      2.09%    passed     53.41%
+ 213  Funisciurus_pyrropus___PV606401_Cameroon                       0.00%    passed     81.13%
+ 214  YK125_FX                                                       0.00%    passed     57.57%
+ 215  EBO87_FX                                                       0.00%    passed     65.22%
+ 216  NDU806_Protoxerus_stangeri                                     0.00%    passed     24.70%
+ 217  UAC935_Protoxerus                                              0.00%    passed     33.46%
+ 218  UAC5125_Protoxerus                                             0.00%    passed     33.46%
+ 219  UAC932_Protoxerus                                              0.00%    passed     33.46%
+ 220  EBO62_protoxerus_stangeri                                      0.78%    passed     38.85%
+ 221  EBO298_Protoxerus_stangeri                                     0.00%    passed     47.89%
+ 222  EPL1_Paraxerus                                                 1.04%    passed     67.47%
+ 223  EPL3_Paraxerus                                                 0.00%    passed     72.01%
+ 224  EPL19_Paraxerus                                                0.00%    passed     60.06%
+ 225  BDA19_Paraxerus                                                0.00%    passed     94.70%
+ 226  LIK669_Paraxerus                                               0.00%    passed     78.96%
+ 227  UAC939_Paraxerus                                               0.00%    passed     70.35%
+ 228  YK171_Paraxerus                                                3.39%    passed     54.02%
+ 229  Heliosciurus_rufobrachium_voucher_DRC1085                      0.00%    passed     85.49%
+ 230  Heliosciurus_rufobrachium_voucher_DRC1078                      0.00%    passed     77.04%
+ 231  Heliosciurus_mutabilis_voucher_FMNH_214879_Mozambique          0.00%    passed     45.54%
+****  TOTAL                                                          0.87%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Y20_FA__2_ is identical to Y16_FA__7_ but kept for subsequent analysis
+NOTE: CRT644_FA is identical to YK93_FA__2_ but kept for subsequent analysis
+NOTE: YK23_FA is identical to YK117_FA but kept for subsequent analysis
+NOTE: YK200___FA is identical to YK100___FA but kept for subsequent analysis
+NOTE: EBO314_FA is identical to EBO315_FA but kept for subsequent analysis
+NOTE: YKX41_FA is identical to YKX40_FA but kept for subsequent analysis
+NOTE: EBO245_FA is identical to EBO382_FA but kept for subsequent analysis
+NOTE: YK64___FA is identical to YK65_FA but kept for subsequent analysis
+NOTE: BY1___FA__2_ is identical to BY2___FA__3_ but kept for subsequent analysis
+NOTE: EPL12___FA is identical to RBTL444_FA but kept for subsequent analysis
+NOTE: BDA12_FA is identical to BDA63_FA__2_ but kept for subsequent analysis
+NOTE: BDA313_FA is identical to BDA338_FA but kept for subsequent analysis
+NOTE: BDA257_FA is identical to BDA112_FA but kept for subsequent analysis
+NOTE: EPL11___FA__2_ is identical to EPL17___FA but kept for subsequent analysis
+NOTE: UMA388___FA is identical to UMA25___FA but kept for subsequent analysis
+NOTE: Kik1665___FC is identical to Kik675___FA__6_ but kept for subsequent analysis
+NOTE: Y74_FB is identical to YK190___FB but kept for subsequent analysis
+NOTE: YK223___FB is identical to YK213_FB but kept for subsequent analysis
+NOTE: Y21_FB is identical to Y101___FB but kept for subsequent analysis
+NOTE: UMA29_FP is identical to UMA40___FP but kept for subsequent analysis
+NOTE: UAC5125_Protoxerus is identical to UAC935_Protoxerus but kept for subsequent analysis
+NOTE: 103 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: YK147_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK122_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK14_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK154_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK202_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK187_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK251_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK242_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK130_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK199_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK53_FA__5_ (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK181_FA__2_ (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y7_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK219_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK160_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y23_FA__3_ (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y54_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y44_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK165_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK214_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: BY9_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK201_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y85_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK123_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK95_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK112___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK180_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK104_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y48_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y43_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK245_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YSK11_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK12_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK155_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK54_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK108___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y84___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK102___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y12___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y71___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK114___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: BY6___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK236___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK107___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK115___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: BY11_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y31_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y15___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y46_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y30_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK96_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y65___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK39___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y63___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK38___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK59___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK35___FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK220_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: Y34_FA (identical to Y16_FA__7_) is ignored but added at the end
+NOTE: YK113___FA (identical to YK93_FA__2_) is ignored but added at the end
+NOTE: YK105___FA (identical to YK93_FA__2_) is ignored but added at the end
+NOTE: YK97_FA (identical to YK93_FA__2_) is ignored but added at the end
+NOTE: YK106___FA (identical to YK93_FA__2_) is ignored but added at the end
+NOTE: Y64___FA (identical to YK93_FA__2_) is ignored but added at the end
+NOTE: yk45_FA (identical to YK93_FA__2_) is ignored but added at the end
+NOTE: YK230_FA (identical to YK93_FA__2_) is ignored but added at the end
+NOTE: Y83___FA (identical to YK93_FA__2_) is ignored but added at the end
+NOTE: YK94_FA (identical to YK93_FA__2_) is ignored but added at the end
+NOTE: EPL29___FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: EPL28_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: BDA337_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: EPL2___FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: Funisciurus_anerythrus_voucher_FMNH_149422__Epulu_DRC (identical to RBTL444_FA) is ignored but added at the end
+NOTE: CRT283_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC913_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC901_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: EPL25_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC915_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC925_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: EPL23_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC926_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: CRT464_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC902___FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC919_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: CRT468_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC5110___FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC938___FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC937___FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: UAC917_FA (identical to RBTL444_FA) is ignored but added at the end
+NOTE: BDA238_FA (identical to BDA63_FA__2_) is ignored but added at the end
+NOTE: BDA341_FA (identical to BDA63_FA__2_) is ignored but added at the end
+NOTE: BDA300_FA (identical to BDA63_FA__2_) is ignored but added at the end
+NOTE: BDA190_FA (identical to BDA63_FA__2_) is ignored but added at the end
+NOTE: BDA222_FA (identical to BDA63_FA__2_) is ignored but added at the end
+NOTE: BDA243_FA (identical to BDA63_FA__2_) is ignored but added at the end
+NOTE: BDA77_FA (identical to BDA338_FA) is ignored but added at the end
+NOTE: BDA223_FA (identical to BDA338_FA) is ignored but added at the end
+NOTE: BDA81_FA (identical to BDA112_FA) is ignored but added at the end
+NOTE: BDA196_FA (identical to BDA112_FA) is ignored but added at the end
+NOTE: EPL13___FA (identical to EPL17___FA) is ignored but added at the end
+NOTE: UMA389___FA (identical to UMA25___FA) is ignored but added at the end
+NOTE: YK228_FB (identical to YK190___FB) is ignored but added at the end
+NOTE: UAC932_Protoxerus (identical to UAC935_Protoxerus) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to unique_from_cytb_with_vouchers_281125.fas.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.019 seconds
+NOTE: ModelFinder requires 5 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 383) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            4081.930     253 8669.859     9666.169     9668.712
+  2  JC+I          3838.250     254 8184.499     9196.530     9187.300
+  3  JC+G4         3828.141     254 8164.282     9176.313     9167.083
+  4  JC+I+G4       3822.215     255 8154.430     9182.461     9161.179
+  5  F81+F         4012.141     256 8536.282     9580.600     9546.979
+  6  F81+F+I       3749.134     257 8012.268     9073.164     9026.913
+  7  F81+F+G4      3735.103     257 7984.206     9045.102     8998.851
+  8  F81+F+I+G4    3729.140     258 7974.280     9052.054     8992.873
+  9  K2P           3809.344     254 8126.688     9138.720     9129.489
+ 10  K2P+I         3545.551     255 7601.103     8629.134     8607.852
+ 11  K2P+G4        3525.124     255 7560.248     8588.279     8566.997
+ 12  K2P+I+G4      3520.010     256 7552.021     8596.338     8562.718
+ 13  HKY+F         3763.160     257 8040.319     9101.215     9054.964
+ 14  HKY+F+I       3471.579     258 7459.157     8536.931     8477.750
+ 15  HKY+F+G4      3435.945     258 7387.889     8465.663     8406.482
+ 16  HKY+F+I+G4    3428.581     259 7375.163     8470.122     8397.704
+ 17  TNe           3798.625     255 8107.249     9135.281     9113.998
+ 18  TNe+I         3539.565     256 7591.130     8635.447     8601.827
+ 19  TNe+G4        3516.065     256 7544.129     8588.447     8554.826
+ 20  TNe+I+G4      3509.695     257 7533.390     8594.286     8548.035
+ 21  TN+F          3757.385     258 8030.771     9108.545     9049.364
+ 22  TN+F+I        3457.721     259 7433.441     8528.401     8455.983
+ 23  TN+F+G4       3428.840     259 7375.680     8470.639     8398.221
+ 24  TN+F+I+G4     3420.553     260 7361.106     8473.565     8387.595
+ 25  K3P           3800.168     255 8110.336     9138.367     9117.085
+ 26  K3P+I         3538.215     256 7588.431     8632.748     8599.128
+ 27  K3P+G4        3518.848     256 7549.696     8594.014     8560.393
+ 28  K3P+I+G4      3513.447     257 7540.895     8601.791     8555.540
+ 29  K3Pu+F        3757.412     258 8030.825     9108.599     9049.418
+ 30  K3Pu+F+I      3469.651     259 7457.302     8552.261     8479.843
+ 31  K3Pu+F+G4     3434.835     259 7387.670     8482.630     8410.211
+ 32  K3Pu+F+I+G4   3427.526     260 7375.052     8487.511     8401.541
+ 33  TPM2+F        3749.297     258 8014.594     9092.368     9033.187
+ 34  TPM2+F+I      3464.179     259 7446.359     8541.318     8468.900
+ 35  TPM2+F+G4     3429.991     259 7377.982     8472.942     8400.523
+ 36  TPM2+F+I+G4   3423.807     260 7367.613     8480.072     8394.102
+ 37  TPM2u+F       3749.300     258 8014.600     9092.374     9033.193
+ 38  TPM2u+F+I     3464.186     259 7446.373     8541.332     8468.914
+ 39  TPM2u+F+G4    3429.992     259 7377.985     8472.944     8400.526
+ 40  TPM2u+F+I+G4  3423.802     260 7367.604     8480.063     8394.093
+ 41  TPM3+F        3758.953     258 8033.906     9111.680     9052.499
+ 42  TPM3+F+I      3471.138     259 7460.276     8555.236     8482.817
+ 43  TPM3+F+G4     3435.878     259 7389.756     8484.716     8412.297
+ 44  TPM3+F+I+G4   3428.491     260 7376.982     8489.441     8403.471
+ 45  TPM3u+F       3758.952     258 8033.905     9111.679     9052.498
+ 46  TPM3u+F+I     3471.137     259 7460.274     8555.234     8482.816
+ 47  TPM3u+F+G4    3435.878     259 7389.757     8484.716     8412.298
+ 48  TPM3u+F+I+G4  3428.491     260 7376.982     8489.441     8403.471
+ 49  TIMe          3789.373     256 8090.745     9135.062     9101.442
+ 50  TIMe+I        3531.959     257 7577.919     8638.815     8592.564
+ 51  TIMe+G4       3509.528     257 7533.055     8593.951     8547.700
+ 52  TIMe+I+G4     3502.939     258 7521.878     8599.652     8540.471
+ 53  TIM+F         3751.674     259 8021.347     9116.307     9043.888
+ 54  TIM+F+I       3455.983     260 7431.966     8544.425     8458.455
+ 55  TIM+F+G4      3427.926     260 7375.853     8488.312     8402.342
+ 56  TIM+F+I+G4    3419.685     261 7361.369     8491.650     8391.806
+ 57  TIM2e         3760.211     256 8032.422     9076.739     9043.119
+ 58  TIM2e+I       3506.435     257 7526.869     8587.765     8541.514
+ 59  TIM2e+G4      3485.147     257 7484.294     8545.190     8498.939
+ 60  TIM2e+I+G4    3479.364     258 7474.728     8552.502     8493.321
+ 61  TIM2+F        3743.463     259 8004.926     9099.885     9027.467
+ 62  TIM2+F+I      3450.616     260 7421.231     8533.690     8447.720
+ 63  TIM2+F+G4     3423.487     260 7366.975     8479.434     8393.464
+ 64  TIM2+F+I+G4   3416.754     261 7355.508     8485.789     8385.945
+ 65  TIM3e         3792.816     256 8097.633     9141.950     9108.330
+ 66  TIM3e+I       3538.896     257 7591.793     8652.689     8606.438
+ 67  TIM3e+G4      3515.531     257 7545.061     8605.957     8559.706
+ 68  TIM3e+I+G4    3509.052     258 7534.105     8611.879     8552.698
+ 69  TIM3+F        3753.141     259 8024.282     9119.241     9046.823
+ 70  TIM3+F+I      3457.175     260 7434.351     8546.810     8460.840
+ 71  TIM3+F+G4     3428.718     260 7377.436     8489.895     8403.925
+ 72  TIM3+F+I+G4   3420.396     261 7362.793     8493.074     8393.230
+ 73  TVMe          3763.868     257 8041.737     9102.633     9056.382
+ 74  TVMe+I        3510.298     258 7536.596     8614.370     8555.189
+ 75  TVMe+G4       3489.545     258 7495.089     8572.863     8513.682
+ 76  TVMe+I+G4     3485.215     259 7488.429     8583.388     8510.970
+ 77  TVM+F         3744.761     260 8009.521     9121.980     9036.010
+ 78  TVM+F+I       3463.263     261 7448.525     8578.806     8478.962
+ 79  TVM+F+G4      3429.123     261 7380.246     8510.527     8410.683
+ 80  TVM+F+I+G4    3422.981     262 7369.961     8518.394     8404.346
+ 81  SYM           3753.245     258 8022.489     9100.264     9041.083
+ 82  SYM+I         3503.841     259 7525.683     8620.642     8548.224
+ 83  SYM+G4        3482.204     259 7482.409     8577.368     8504.950
+ 84  SYM+I+G4      3476.405     260 7472.811     8585.270     8499.300
+ 85  GTR+F         3738.885     261 7999.771     9130.052     9030.208
+ 86  GTR+F+I       3449.629     262 7423.257     8571.691     8457.642
+ 87  GTR+F+G4      3422.586     262 7369.172     8517.605     8403.557
+ 88  GTR+F+I+G4    3415.979     263 7357.958     8524.883     8396.291
+Akaike Information Criterion:           TIM2+F+I+G4
+Corrected Akaike Information Criterion: HKY+F+G4
+Bayesian Information Criterion:         TIM2+F+I+G4
+Best-fit model: TIM2+F+I+G4 chosen according to BIC
+
+All model information printed to unique_from_cytb_with_vouchers_281125.fas.model.gz
+CPU time for ModelFinder: 5.736 seconds (0h:0m:5s)
+Wall-clock time for ModelFinder: 5.810 seconds (0h:0m:5s)
+Generating 2000 samples for ultrafast bootstrap (seed: 98550)...
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.271 / LogL: -3423.481
+Init pinv, alpha: 0.056, 1.000 / Estimate: 0.060, 0.316 / LogL: -3424.027
+Init pinv, alpha: 0.113, 1.000 / Estimate: 0.128, 0.378 / LogL: -3424.066
+Init pinv, alpha: 0.169, 1.000 / Estimate: 0.202, 0.462 / LogL: -3423.318
+Init pinv, alpha: 0.225, 1.000 / Estimate: 0.445, 1.364 / LogL: -3416.742
+Init pinv, alpha: 0.281, 1.000 / Estimate: 0.445, 1.365 / LogL: -3416.747
+Init pinv, alpha: 0.338, 1.000 / Estimate: 0.444, 1.352 / LogL: -3416.765
+Init pinv, alpha: 0.394, 1.000 / Estimate: 0.444, 1.348 / LogL: -3416.776
+Init pinv, alpha: 0.450, 1.000 / Estimate: 0.450, 1.411 / LogL: -3416.747
+Init pinv, alpha: 0.507, 1.000 / Estimate: 0.456, 1.485 / LogL: -3416.774
+Optimal pinv,alpha: 0.445, 1.364 / LogL: -3416.742
+
+Parameters optimization took 2.300 sec
+Computing ML distances based on estimated model parameters... 0.092 sec
+Computing BIONJ tree...
+0.006 seconds
+Log-likelihood of BIONJ tree: -3430.246
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.862 second
+Computing log-likelihood of 98 initial trees ... 1.224 seconds
+Current best score: -3398.107
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3393.176
+BETTER TREE FOUND at iteration 2: -3393.174
+Iteration 10 / LogL: -3396.916 / Time: 0h:0m:8s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 20: -3392.726
+Iteration 20 / LogL: -3392.726 / Time: 0h:0m:11s
+Finish initializing candidate tree set (20)
+Current best tree score: -3392.726 / CPU time: 9.133
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 30: -3392.726
+Iteration 30 / LogL: -3392.726 / Time: 0h:0m:15s (0h:0m:52s left)
+Iteration 40 / LogL: -3393.818 / Time: 0h:0m:18s (0h:0m:42s left)
+BETTER TREE FOUND at iteration 44: -3392.725
+BETTER TREE FOUND at iteration 45: -3392.725
+Iteration 50 / LogL: -3458.780 / Time: 0h:0m:21s (0h:0m:41s left)
+Log-likelihood cutoff on original alignment: -3425.562
+BETTER TREE FOUND at iteration 56: -3392.725
+Iteration 60 / LogL: -3393.817 / Time: 0h:0m:25s (0h:0m:41s left)
+Iteration 70 / LogL: -3400.333 / Time: 0h:0m:28s (0h:0m:35s left)
+Iteration 80 / LogL: -3394.719 / Time: 0h:0m:32s (0h:0m:30s left)
+Iteration 90 / LogL: -3394.464 / Time: 0h:0m:35s (0h:0m:26s left)
+BETTER TREE FOUND at iteration 93: -3392.724
+Iteration 100 / LogL: -3393.174 / Time: 0h:0m:39s (0h:0m:36s left)
+Log-likelihood cutoff on original alignment: -3425.562
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+BETTER TREE FOUND at iteration 110: -3392.724
+Iteration 110 / LogL: -3392.724 / Time: 0h:0m:43s (0h:0m:39s left)
+Iteration 120 / LogL: -3392.725 / Time: 0h:0m:46s (0h:0m:35s left)
+Iteration 130 / LogL: -3393.816 / Time: 0h:0m:49s (0h:0m:30s left)
+Iteration 140 / LogL: -3392.726 / Time: 0h:0m:53s (0h:0m:26s left)
+Iteration 150 / LogL: -3392.725 / Time: 0h:0m:57s (0h:0m:23s left)
+Log-likelihood cutoff on original alignment: -3425.562
+Iteration 160 / LogL: -3392.725 / Time: 0h:1m:1s (0h:0m:19s left)
+Iteration 170 / LogL: -3400.780 / Time: 0h:1m:4s (0h:0m:15s left)
+Iteration 180 / LogL: -3394.663 / Time: 0h:1m:7s (0h:0m:11s left)
+BETTER TREE FOUND at iteration 182: -3392.724
+BETTER TREE FOUND at iteration 184: -3392.724
+Iteration 190 / LogL: -3392.725 / Time: 0h:1m:11s (0h:0m:35s left)
+Iteration 200 / LogL: -3398.846 / Time: 0h:1m:15s (0h:0m:31s left)
+Log-likelihood cutoff on original alignment: -3425.562
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 210 / LogL: -3397.353 / Time: 0h:1m:19s (0h:0m:34s left)
+Iteration 220 / LogL: -3394.989 / Time: 0h:1m:22s (0h:0m:30s left)
+Iteration 230 / LogL: -3393.573 / Time: 0h:1m:25s (0h:0m:26s left)
+Iteration 240 / LogL: -3394.808 / Time: 0h:1m:29s (0h:0m:22s left)
+Iteration 250 / LogL: -3393.816 / Time: 0h:1m:32s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -3425.562
+Iteration 260 / LogL: -3392.726 / Time: 0h:1m:36s (0h:0m:14s left)
+Iteration 270 / LogL: -3400.497 / Time: 0h:1m:40s (0h:0m:11s left)
+Iteration 280 / LogL: -3418.828 / Time: 0h:1m:44s (0h:0m:7s left)
+TREE SEARCH COMPLETED AFTER 285 ITERATIONS / Time: 0h:1m:46s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3392.724
+Optimal log-likelihood: -3392.723
+Rate parameters:  A-C: 3.65920  A-G: 54.15424  A-T: 3.65920  C-G: 1.00000  C-T: 28.54781  G-T: 1.00000
+Base frequencies:  A: 0.260  C: 0.360  G: 0.100  T: 0.280
+Proportion of invariable sites: 0.445
+Gamma shape alpha: 1.291
+Parameters optimization took 1 rounds (0.021 sec)
+BEST SCORE FOUND : -3392.723
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+1.390 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file unique_from_cytb_with_vouchers_281125.fas.splits.nex
+Total tree length: 2.965
+
+Total number of iterations: 285
+CPU time used for tree search: 103.694 sec (0h:1m:43s)
+Wall-clock time used for tree search: 103.976 sec (0h:1m:43s)
+Total CPU time used: 107.976 sec (0h:1m:47s)
+Total wall-clock time used: 108.286 sec (0h:1m:48s)
+
+Computing bootstrap consensus tree...
+Reading input file unique_from_cytb_with_vouchers_281125.fas.splits.nex...
+128 taxa and 3132 splits.
+Consensus tree written to unique_from_cytb_with_vouchers_281125.fas.contree
+Reading input trees file unique_from_cytb_with_vouchers_281125.fas.contree
+Log-likelihood of consensus tree: -3392.724
+
+Analysis results written to: 
+  IQ-TREE report:                unique_from_cytb_with_vouchers_281125.fas.iqtree
+  Maximum-likelihood tree:       unique_from_cytb_with_vouchers_281125.fas.treefile
+  Likelihood distances:          unique_from_cytb_with_vouchers_281125.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          unique_from_cytb_with_vouchers_281125.fas.splits.nex
+  Consensus tree:                unique_from_cytb_with_vouchers_281125.fas.contree
+  Screen log file:               unique_from_cytb_with_vouchers_281125.fas.log
+
+Date and Time: Fri Nov 28 18:44:42 2025
