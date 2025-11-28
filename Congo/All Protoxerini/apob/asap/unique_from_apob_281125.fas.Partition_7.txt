@@ -1,0 +1,63 @@
+Partition 7 
+Asap-Score: 7.000000
+Proba: 1.000000e+00
+Nb subsets with recursion:65 (without recursion: 14)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: BDA190 
+Subset[ 2 ] n: 1 ;id: Y42 
+Subset[ 3 ] n: 1 ;id: AKT236 
+Subset[ 4 ] n: 1 ;id: UMA18 
+Subset[ 5 ] n: 1 ;id: YK128 
+Subset[ 6 ] n: 1 ;id: LIK926 
+Subset[ 7 ] n: 1 ;id: RBTL444 
+Subset[ 8 ] n: 1 ;id: BDA152 
+Subset[ 9 ] n: 1 ;id: TLL57 
+Subset[ 10 ] n: 1 ;id: BDAD3469 
+Subset[ 11 ] n: 1 ;id: BY4 
+Subset[ 12 ] n: 1 ;id: YK115 
+Subset[ 13 ] n: 1 ;id: BDAD3242 
+Subset[ 14 ] n: 1 ;id: UAC5122 
+Subset[ 15 ] n: 1 ;id: KIK1671 
+Subset[ 16 ] n: 1 ;id: Kik1199 
+Subset[ 17 ] n: 1 ;id: KIK1664 
+Subset[ 18 ] n: 1 ;id: KIK1455 
+Subset[ 19 ] n: 1 ;id: UAC5124 
+Subset[ 20 ] n: 1 ;id: BY2 
+Subset[ 21 ] n: 1 ;id: YK193 
+Subset[ 22 ] n: 1 ;id: KIK1200 
+Subset[ 23 ] n: 1 ;id: KIK1660 
+Subset[ 24 ] n: 1 ;id: UMA30 
+Subset[ 25 ] n: 1 ;id: EPL8 
+Subset[ 26 ] n: 1 ;id: NDU803 
+Subset[ 27 ] n: 1 ;id: CRT370 
+Subset[ 28 ] n: 1 ;id: BY12 
+Subset[ 29 ] n: 1 ;id: YK121 
+Subset[ 30 ] n: 1 ;id: YK152 
+Subset[ 31 ] n: 1 ;id: YK156 
+Subset[ 32 ] n: 1 ;id: YK195 
+Subset[ 33 ] n: 1 ;id: BY5 
+Subset[ 34 ] n: 1 ;id: YK148 
+Subset[ 35 ] n: 1 ;id: Y81 
+Subset[ 36 ] n: 1 ;id: Y110 
+Subset[ 37 ] n: 1 ;id: YK192 
+Subset[ 38 ] n: 1 ;id: Y74 
+Subset[ 39 ] n: 1 ;id: YK211 
+Subset[ 40 ] n: 1 ;id: YK120 
+Subset[ 41 ] n: 1 ;id: LIK931 
+Subset[ 42 ] n: 1 ;id: BDA130 
+Subset[ 43 ] n: 1 ;id: BDA203 
+Subset[ 44 ] n: 1 ;id: YKX33 
+Subset[ 45 ] n: 1 ;id: YK217 
+Subset[ 46 ] n: 1 ;id: Y70 
+Subset[ 47 ] n: 1 ;id: KIK1664b 
+Subset[ 48 ] n: 1 ;id: BDA3437 
+Subset[ 49 ] n: 1 ;id: YK250 
+Subset[ 50 ] n: 1 ;id: YK61 
+Subset[ 51 ] n: 1 ;id: YK15 
+Subset[ 52 ] n: 1 ;id: YK240 
+Subset[ 53 ] n: 1 ;id: CRT58 
+Subset[ 54 ] n: 1 ;id: EPL19 
+Subset[ 55 ] n: 1 ;id: EPL6 
+Subset[ 56 ] n: 1 ;id: YK164 
+Subset[ 57 ] n: 1 ;id: YK171 

@@ -1,0 +1,20 @@
+Partition 6 
+Asap-Score: 5.500000
+Proba: 8.183633e-01
+Nb subsets with recursion:14 (without recursion: 12)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 23 ;id: BDA190 Y42 AKT236 UMA18 YK128 LIK926 RBTL444 BDA152 TLL57 BDAD3469 BY4 YK115 BDAD3242 UAC5122 KIK1671 Kik1199 KIK1664 KIK1455 UAC5124 BY2 YK193 KIK1200 KIK1660 
+Subset[ 2 ] n: 1 ;id: EPL14 
+Subset[ 3 ] n: 1 ;id: KIK676 
+Subset[ 4 ] n: 4 ;id: UMA30 EPL8 NDU803 CRT370 
+Subset[ 5 ] n: 1 ;id: EBO87 
+Subset[ 6 ] n: 1 ;id: YK125 
+Subset[ 7 ] n: 13 ;id: BY12 YK121 YK152 YK156 YK195 BY5 YK148 Y81 Y110 YK192 Y74 YK211 YK120 
+Subset[ 8 ] n: 1 ;id: YK196 
+Subset[ 9 ] n: 1 ;id: YK64 
+Subset[ 10 ] n: 12 ;id: LIK931 BDA130 BDA203 YKX33 YK217 Y70 KIK1664b BDA3437 YK250 YK61 YK15 YK240 
+Subset[ 11 ] n: 1 ;id: LIK637 
+Subset[ 12 ] n: 1 ;id: BDA3081 
+Subset[ 13 ] n: 3 ;id: CRT58 EPL19 EPL6 
+Subset[ 14 ] n: 2 ;id: YK164 YK171 

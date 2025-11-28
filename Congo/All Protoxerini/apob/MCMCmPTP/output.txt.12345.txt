@@ -1,0 +1,72 @@
+Command: /var/www/mptp/bin/mptp --tree_file tree.newick --mcmc_startnull --mcmc 500000 --mcmc_sample 1000 --mcmc_burnin 5000 --seed 12345 --minbr 0.0001 --output_file output.txt 
+Number of edges greater than minimum branch length 0.000100: 30 / 128
+Null-model score: 126.982237
+Best score for multi coalescent rate: 126.982237
+Number of delimited species: 1
+
+Species 1:
+KIK676
+BDA190
+Y42
+BDA152
+UAC5124
+BDAD3242
+AKT236
+YK128
+KIK1671
+Kik1199
+KIK1200
+KIK1660
+UMA30
+CRT370
+EPL8
+NDU803
+EBO87
+BY12
+YK121
+YK156
+Y110
+BY5
+YK195
+YK64
+YK148
+YK196
+YK192
+YK120
+YK152
+Y81
+YK211
+Y74
+LIK931
+BDA203
+BDA130
+YK217
+Y70
+KIK1664b
+YK250
+YK61
+YK15
+YK240
+YKX33
+BDA3437
+LIK637
+YK164
+YK171
+CRT58
+EPL19
+EPL6
+BDA3081
+YK125
+KIK1455
+EPL14
+BDAD3469
+BY4
+BY2
+YK193
+YK115
+TLL57
+KIK1664
+RBTL444
+LIK926
+UAC5122
+UMA18

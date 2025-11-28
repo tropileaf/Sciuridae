@@ -1,0 +1,23 @@
+
+  A = Unique_Overlapping_One_Outgroup.fas_asap_1
+  B = Unique_Overlapping_One_Outgroup.fas_asap_2
+  C = Unique_Overlapping_One_Outgroup.fas_asap_3
+  D = Unique_Overlapping_One_Outgroup.fas_asap_4
+  E = Unique_Overlapping_One_Outgroup.fas_asap_5
+
+        Esp     Rtax       Ctax -->                                
+                             A         B         C         D         E  
+  A       45    44/44             11/44     6/44     4/44     1/44  
+  B       12    11/44                       6/11     4/11     1/11  
+  C        7     6/44                                 4/6      1/6  
+  D        5     4/44                                          1/4  
+  E        2     1/44                                               
+
+      mCtax     Rtax       Ctax -->                                
+                             A         B         C         D         E  
+  A     0.12     1.00              0.25     0.14     0.09     0.02  
+  B     0.31     0.25                       0.55     0.36     0.09  
+  C     0.38     0.14                                0.67     0.17  
+  D     0.34     0.09                                         0.25  
+  E     0.13     0.02                                               
+
